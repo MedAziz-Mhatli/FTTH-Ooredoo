@@ -1,0 +1,19 @@
+<p
+  [style.color]="'yellow'"
+  [hidden]="isHidden"
+>
+  first works!
+</p>
+<button (click)="showHide()" class="btn btn-primary">
+  {{ buttonMessage }}
+</button>
+<hr />
+In first component i said {{ message }}
+<input type="text" #monInput />
+<app-second></app-second>
+<hr />
+<button
+  (click)="navigate()"
+  class="btn btn-dark">
+  My Cvtech
+</button>
